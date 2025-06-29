@@ -40,7 +40,7 @@ A collaborative learning platform where users exchange skills without spending m
 ### 💡 Project Creators
 
 - **Hasnain Saleem** – Team Lead / Frontend Dev
-- **[Add Team Member Name]** – UI Designer
+- **Nathan Asif** – Lead Backend & Databases
 - **[Add Team Member Name]** – JS Logic & Integration
 - **[Add Team Member Name]** – Testing & Documentation
 
