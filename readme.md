@@ -41,7 +41,7 @@ A collaborative learning platform where users exchange skills without spending m
 
 - **Hasnain Saleem** – Team Lead / Frontend Dev
 - **Nathan Asif** – Lead Backend & Databases
-- **[Add Team Member Name]** – JS Logic & Integration
+- **Muhammad Laraib** – JS Logic & Integration
 - **[Add Team Member Name]** – Testing & Documentation
 
 > We're passionate about making learning accessible to everyone.
