@@ -46,7 +46,7 @@ A collaborative learning platform where users exchange skills without spending m
 
 > We're passionate about making learning accessible to everyone.
 
----
+----
 
 ## 📜 License
 
