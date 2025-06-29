@@ -1,0 +1,122 @@
+<!-- chat.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillSwap Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .chat-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 1rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .chat-header {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #0077cc;
+      margin-bottom: 1rem;
+    }
+
+    .chat-box {
+      height: 400px;
+      overflow-y: auto;
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .message {
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      margin-bottom: 0.7rem;
+      max-width: 70%;
+    }
+
+    .sent {
+      background: #0077cc;
+      color: white;
+      align-self: flex-end;
+      margin-left: auto;
+    }
+
+    .received {
+      background: #f0f0f0;
+      color: #333;
+      align-self: flex-start;
+      margin-right: auto;
+    }
+
+    .chat-input {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .chat-input input {
+      flex: 1;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+    }
+
+    .chat-input button {
+      padding: 0.8rem 1.5rem;
+      border: none;
+      background: #0077cc;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header class="glass">
+    <nav>
+      <div class="logo">SkillSwap</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="chat.html" class="active">Chat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="chat-container glass">
+    <div class="chat-header">Chat with Mentor</div>
+    <div class="chat-box" id="chatBox">
+      <div class="message received">Hey! Ready to start your HTML lesson?</div>
+      <div class="message sent">Yes! I'm excited 😄</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="messageInput" placeholder="Type your message...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 SkillSwap. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function sendMessage() {
+      const input = document.getElementById('messageInput');
+      const msg = input.value.trim();
+      if (msg !== '') {
+        const msgDiv = document.createElement('div');
+        msgDiv.classList.add('message', 'sent');
+        msgDiv.textContent = msg;
+        document.getElementById('chatBox').appendChild(msgDiv);
+        input.value = '';
+        document.getElementById('chatBox').scrollTop = chatBox.scrollHeight;
+      }
+    }
+  </script>
+</body>
+</html>

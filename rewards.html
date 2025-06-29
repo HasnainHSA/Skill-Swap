@@ -1,0 +1,75 @@
+<!-- rewards.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillSwap - Rewards</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="rewards.js"></script>
+</head>
+<body>
+  <header class="glass">
+    <nav>
+      <div class="logo">SkillSwap</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teach.html">Teach</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="rewards.html" class="active">Rewards</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="chat.html">Chat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Earn & Redeem Rewards</h1>
+      <p>Teach more, earn points, and unlock amazing perks!</p>
+      <p><strong>Your Points:</strong> <span id="userPoints">Loading...</span></p>
+    </div>
+  </section>
+
+  <section class="cards">
+    <h2 class="section-title">Available Rewards</h2>
+    <div class="card-container">
+      <div class="card glass">
+        <h3>Amazon Gift Cards</h3>
+        <p>Redeem your SkillPoints for shopping vouchers on Amazon.</p>
+        <p><strong>Cost:</strong> 500 Points</p>
+        <button onclick="redeemReward('Amazon Gift Cards', 500)">Redeem</button>
+      </div>
+      <div class="card glass">
+        <h3>Exclusive Courses</h3>
+        <p>Access premium learning content in design, coding, and more.</p>
+        <p><strong>Cost:</strong> 300 Points</p>
+        <button onclick="redeemReward('Exclusive Courses', 300)">Redeem</button>
+      </div>
+      <div class="card glass">
+        <h3>SkillSwap Merchandise</h3>
+        <p>Get branded t-shirts, mugs, stickers, and more.</p>
+        <p><strong>Cost:</strong> 200 Points</p>
+        <button onclick="redeemReward('SkillSwap Merchandise', 200)">Redeem</button>
+      </div>
+      <div class="card glass">
+        <h3>1-on-1 Mentor Sessions</h3>
+        <p>Unlock personal sessions with top-rated SkillSwap mentors.</p>
+        <p><strong>Cost:</strong> 750 Points</p>
+        <button onclick="redeemReward('1-on-1 Mentor Sessions', 750)">Redeem</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="cards">
+    <h2 class="section-title">Your Redeemed Rewards</h2>
+    <div id="redeemedList" class="card-container">
+      <!-- JS will populate this -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SkillSwap. All rights reserved.</p>
+  </footer>
+</body>
+</html>

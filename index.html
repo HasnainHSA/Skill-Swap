@@ -1,0 +1,90 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillSwap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="glass">
+    <nav>
+      <div class="logo">SkillSwap</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="teach.html">Teach</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="rewards.html">Rewards</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="chat.html">Chat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Swap Skills. Learn Anything. Teach Everything.</h1>
+      <p>A community where skills are the currency.</p>
+      <button onclick="scrollToSection('features')">Explore Features</button>
+    </div>
+  </section>
+
+  <section id="features" class="cards">
+    <h2 class="section-title">Why Choose SkillSwap?</h2>
+    <div class="card-container">
+      <div class="card glass">
+        <h3>Learn for Free</h3>
+        <p>Gain new skills without spending money—just exchange your knowledge.</p>
+      </div>
+      <div class="card glass">
+        <h3>Build Community</h3>
+        <p>Connect with learners and teachers across different interests.</p>
+      </div>
+      <div class="card glass">
+        <h3>Redeem Rewards</h3>
+        <p>Earn points through teaching and unlock premium content or gifts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="popular-skills" class="cards">
+    <h2 class="section-title">Trending Skills</h2>
+    <div class="card-container">
+      <div class="card glass">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript, React & more.</p>
+      </div>
+      <div class="card glass">
+        <h3>Music</h3>
+        <p>Learn instruments, vocals, and digital production.</p>
+      </div>
+      <div class="card glass">
+        <h3>Marketing</h3>
+        <p>SEO, social media, and branding techniques.</p>
+      </div>
+      <div class="card glass">
+        <h3>Design</h3>
+        <p>Graphic design, UI/UX, and visual storytelling.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="signup" class="form-section glass">
+    <h2>Create Your SkillSwap Account</h2>
+    <form id="signupForm">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Skill You Can Teach" required />
+      <input type="text" placeholder="Skill You Want to Learn" required />
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SkillSwap. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
