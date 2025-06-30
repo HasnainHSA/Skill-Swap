@@ -10,3 +10,5 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
   alert("🎉 Account created successfully! Start swapping skills now.");
   this.reset();
 });
+
+ /* Made with 💙 by Team SkillSwap  */

@@ -51,7 +51,7 @@ A collaborative learning platform where users exchange skills without spending m
 
 ## 🧑‍💻 Our Team
 
-### 💡 Project Creators
+### 💡 Project Creators:
 
 - **Hasnain Saleem** – Team Lead / Frontend Dev
 - **[Add Team Member Name]** – UI Designer

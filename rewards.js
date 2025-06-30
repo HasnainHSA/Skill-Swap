@@ -46,3 +46,5 @@ function renderRedeemedRewards() {
     container.appendChild(div);
   });
 }
+
+ /* Made with 💙 by Team SkillSwap  */
