@@ -9,7 +9,6 @@ A collaborative learning platform where users exchange skills without spending m
 - 🔄 **Skill Exchange System**: Trade your skill for another's expertise.
 - 👤 **User Dashboard**: Manage profile, skills, points, and matchups.
 - 💎 **Reward System**: Earn points by teaching & redeem them for real-world gifts.
-- 🧊 **Glassmorphism Design**: A clean modern look with blur, transparency & soft UI.
 - 💬 **Chat Interface**: Communicate directly with learners & teachers.
 
 ---
@@ -33,19 +32,6 @@ A collaborative learning platform where users exchange skills without spending m
 | `dashboard.html` | Track activity & personal profile    |
 | `chat.html` | Messaging between users                  |
 
----
-
-## ✨ UI Design Sample (Glassmorphism Class Example)
-
-```css
-.glass {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-```
 
 ---
 
@@ -54,13 +40,13 @@ A collaborative learning platform where users exchange skills without spending m
 ### 💡 Project Creators:
 
 - **Hasnain Saleem** – Team Lead / Frontend Dev
-- **[Add Team Member Name]** – UI Designer
-- **[Add Team Member Name]** – JS Logic & Integration
-- **[Add Team Member Name]** – Testing & Documentation
+- **Nathan Asif** – Lead Backend & Databases
+- **Muhammad Laraib** – JS Logic & Integration
+- **Muhammad Anas** – Testing & Documentation/Frontend
 
 > We're passionate about making learning accessible to everyone.
 
----
+----
 
 ## 📜 License
 
